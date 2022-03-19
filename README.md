@@ -4,17 +4,20 @@ A Node.js-based RESTful API for for tracking the uptime of user-specified websit
 
 ## Setup
 
-Environment
+### Environment
+
 Generate .env file using .env.example in root folder.
 Create a postgres Database
 
-Installation and Starting up
+### Installation and Starting up
+
 Run ➡ "npm install"
 Run ➡ "npm run database:init "(To initialize DB sync)
 Run ➡" npm run start" ➡ Production runtime environment.
 Run ➡ "npm run dev" ➡ Development runtime environment. (Listening on src for changes)
 
-NPM scripts
+### NPM scripts
+
 npm run docker ➡ Docker runtime environment. (HAS UNRESOLVED ISSUES AT THE MOMENT SO RUN LOCAL ENVIRONMENT)
 npm run lint ➡ Run linter. (Checking for mistakes)
 npm run database:reset(To reset DB to original state after initializing)
@@ -22,7 +25,8 @@ npm run database:reset(To reset DB to original state after initializing)
 I left .env intentionally for you to test it right away and apologies for the poor documentation by hand was in a bit of a hurry :D
 There is a postman collection in the docs folder
 
-Documentation
+### Documentation
+
 Postman (collection and environment) are provided in ./docs/Postman folder.
 Environment variables to be used:
 1-A token variable -> Ex: "token" with value of token received when logging in
